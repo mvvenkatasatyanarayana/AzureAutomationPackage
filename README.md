@@ -5,6 +5,9 @@ Pre-requisites:
 
 
 Run the application:
+There are two applications in the package. 
+	i) Azure Automation: Gets the logs periodically and stores in local db.
+	ii) Azure Logs Dashboard: Shows the logs from local db in the grid view where it supports filters, exporting, sorting.
 1) Open App Configuration file.
 	i) ExecutablePath has to be the .exe path from AzureAutomation package.
 	ii)Change SmtpServerUrl, From, To, SmtpUserName, SmtpPassword, SmtpPort accordingly.
